@@ -1,6 +1,7 @@
+> :warning: This README is still under development!
+
 # Packer Templates for Proxmox
-> This repo is built for my own environment so please review all configurations to verify compatibility!
-{is-warning}
+> :warning: This repo is built for my own environment so please review all configurations to verify compatibility!
 
 This repo is used to build Packer template files used in Proxmox and ready for cloudinit/Terraform deployments.
 
@@ -64,8 +65,7 @@ packer build \
 ```
 
 # Current Images Supported
-> Distro flavor choice is based off the latest, stable, slim version availible.
-{is-info}
+> :information: Distro flavor choice is based off the latest, stable, slim version availible.
 
 | OS                                                    | Version    | VMID | Status |
 | ----------------------------------------------------- | ---------- | ---- | ------ |
@@ -101,8 +101,7 @@ packer build \
 |  [Void](https://voidlinux.org/)                      | glibc      | 1029 | |
 |  [Windows](https://www.microsoft.com/en-us/windows/) | 11         | 1030 | |
 |  [Zorin](https://zorin.com/os/)                      | 17.1       | 1031 | |
-> The Talos xz image is pulled from [Image Factory](https://factory.talos.dev/). Use the Disk Image link in the packer variable file after you finish the customize.
-{is-warning}
+> :warning: The Talos xz image is pulled from [Image Factory](https://factory.talos.dev/). Use the Disk Image link in the packer variable file after you finish the customize.
 
 # Acknowledgements
 Huge shout out to Pumba98 for his excellent repo which much of this was inspired. You can find his repo here:
