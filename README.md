@@ -1,5 +1,5 @@
 > [!WARNING]
-> :warning: This README is still under development!
+> This README is still under development!
 
 # ![logo](https://icon.horse/icon/www.packer.io) Packer Templates for Proxmox
 > [!IMPORTANT]
@@ -18,6 +18,16 @@ Features used in these templates are:
 TODO features to add:
 - CIS/STIG hardening
 - Secureboot/TPM
+
+> [!TIP]
+> This repo is part of my IaC automation series. If you are building this in mind please follow my repo's in the order below.
+
+1.  [terraform-iso-get](https://github.com/dylanbegin/terraform-iso-get)
+1.  *you are here* [packer](https://github.com/dylanbegin/packer)
+1.  [terraform-core](https://github.com/dylanbegin/terraform-core)
+1.  [ansible](https://github.com/dylanbegin/ansible)
+1.  [terraform-talos](https://github.com/dylanbegin/terraform-talos)
+1.  [k8s-apps](https://github.com/dylanbegin/k8s-apps)
 
 # ISO Setup
 The Packer builder is configured to boot from an ISO. There are two aproaches to using a ISO, download the file from a URL or mount from a file. This repo is configured to use the file method but if you want to use a URL you can read the [Proxmox ISO Builder](https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox/latest/components/builder/iso#required) for configuration details.
