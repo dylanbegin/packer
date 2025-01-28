@@ -3,7 +3,7 @@
 vmid        = "1014"
 vmname      = "kali"
 vmdesc      = "Kali Linux Base Template"
-isourl      = "https://cdimage.kali.org/kali-2024.1/kali-linux-2024.1-installer-netinst-amd64.iso"
+isourl      = "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-netinst-amd64.iso"
 isochecksum = "fbadb7f33e59f21789599b5da4c47d34cbfddbed97b8103073a717e8b0e36784"
 isofile     = "kali.iso"
 httpdir     = "./http/kali/"

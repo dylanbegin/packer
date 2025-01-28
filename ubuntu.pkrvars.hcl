@@ -3,7 +3,7 @@
 vmid        = "1027"
 vmname      = "ubuntu"
 vmdesc      = "Ubuntu Server Base Template"
-isourl      = "https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso"
+isourl      = "https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso"
 isochecksum = "https://releases.ubuntu.com/24.04/SHA256SUMS"
 isofile     = "ubuntu.iso"
 httpdir     = "./http/ubuntu/"

@@ -3,7 +3,7 @@
 vmid        = "1001"
 vmname      = "alpine"
 vmdesc      = "Alpine Linux Base Template"
-isourl      = "https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.1-x86_64.iso"
+isourl      = "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.2-x86_64.iso"
 isochecksum = "file:https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.1-x86_64.iso.sha256"
 isofile     = "alpine.iso"
 httpdir     = "./http/alpine/"

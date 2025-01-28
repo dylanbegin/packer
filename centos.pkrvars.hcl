@@ -3,7 +3,7 @@
 vmid        = "1005"
 vmname      = "centos"
 vmdesc      = "CentOS Streams Base Template"
-isourl      = "https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso"
+isourl      = "https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250123.0-x86_64-boot.iso"
 isochecksum = "file:https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso.SHA256SUM"
 isofile     = "centos.iso"
 httpdir     = "./http/centos/"

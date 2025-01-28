@@ -82,40 +82,38 @@ packer build \
 
 | OS                                                    | Version    | VMID | Status |
 | ----------------------------------------------------- | ---------- | ---- | ------ |
-|  [Alma](https://almalinux.org/)                      | 9.4        | 1000 | Completed |
-|  [Alpine](https://www.alpinelinux.org/)              | 3.20       | 1001 | Completed |
+|  [Alma](https://almalinux.org/)                      | 9.5        | 1000 | Completed |
+|  [Alpine](https://www.alpinelinux.org/)              | 3.21       | 1001 | Completed |
 |  [Antix](https://antixlinux.com/)                    | 22         | 1002 | |
 | 󰣇 [Arch](https://archlinux.org/)                      | rolling    | 1003 | |
 |  [Artix](https://artixlinux.org/index.php)           | rolling    | 1004 | |
-|  [Centos](https://www.centos.org/centos-stream/)     | Streams 9  | 1005 | Completed |
+|  [Centos](https://www.centos.org/centos-stream/)     | Streams 10 | 1005 | Completed |
 |  [ClearOS](https://www.clearlinux.org/index.html)    | rolling    | 1006 | |
 |  [Core](http://www.tinycorelinux.net/)               | 15         | 1007 | |
-| 󰣚 [Debian](https://www.debian.org/)                   | 12.6       | 1008 | Commpleted |
+| 󰣚 [Debian](https://www.debian.org/)                   | 12.9       | 1008 | Commpleted |
 |  [Elementary](https://elementary.io/)                | 7.1        | 1009 | |
 |  [Endeavour](https://endeavouros.com/)               | Gemini     | 1010 | |
-| 󰣛 [Fedora](https://fedoraproject.org/)                | 40         | 1011 | Completed |
+| 󰣛 [Fedora](https://fedoraproject.org/)                | 41         | 1011 | Completed |
 | 󰣠 [FreeBSD](https://www.freebsd.org/)                 | 13.3       | 1012 | |
 | 󰣨 [Gentoo](https://www.gentoo.org/)                   | rolling    | 1013 | |
 |  [Kali](https://www.kali.org/)                       | rolling    | 1014 | initrd err |
 |  [Kali Purple](https://www.kali.org/)                | rolling    | 1015 | |
 | 󱘊 [Manjaro](https://manjaro.org/)                     | 23.1       | 1016 | |
-| 󰣭 [Mint](https://linuxmint.com/)                      | 21.3       | 1017 | |
+| 󰣭 [Mint](https://linuxmint.com/)                      | 22.2       | 1017 | |
 | 󱄅 [Nix](https://nixos.org/)                           | 23.11      | 1018 | |
 |  [OpenBSD](https://www.openbsd.org/)                 | 7.5        | 1019 | |
 |  [OpenSUSE](https://www.opensuse.org/)               | Tumbleweed | 1020 | |
-|  [Parrot](https://parrotlinux.org/)                  | 6          | 1021 | |
+|  [Parrot](https://www.parrotsec.org/)                | 6.2        | 1021 | |
 |  [Peppermint](https://peppermintos.com/)             | rolling    | 1022 | |
 |  [Pop!](https://pop.system76.com/)                   | 22.04      | 1023 | |
 |  [QubesOS](https://www.qubes-os.org/)                | 4.2        | 1024 | |
-|  [Rocky](https://rockylinux.org/)                    | 9.4        | 1025 | Completed |
-| 󱃾 [Talos](https://www.talos.dev/)                     | 1.7        | 1026 | Completed |
-| 󰕈 [Ubuntu](https://ubuntu.com/)                       | 24.04      | 1027 | Completed |
+|  [Rocky](https://rockylinux.org/)                    | 9.5        | 1025 | Completed |
+| 󰕈 [Ubuntu](https://ubuntu.com/)                       | 24.10      | 1027 | Completed |
 |  [Vanilla](https://vanillaos.org/)                   | 22.10      | 1028 | |
 |  [Void](https://voidlinux.org/)                      | glibc      | 1029 | |
 |  [Windows](https://www.microsoft.com/en-us/windows/) | 11         | 1030 | |
 |  [Zorin](https://zorin.com/os/)                      | 17.1       | 1031 | |
 > [!WARNING]
-> The Talos xz image is pulled from [Image Factory](https://factory.talos.dev/). Use the Disk Image link in the packer variable file after you finish the customize.
 
 # Acknowledgements
 Huge shout out to Pumba98 for his excellent repo which much of this was inspired. You can find his repo here:

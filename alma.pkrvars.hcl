@@ -3,7 +3,7 @@
 vmid        = "1000"
 vmname      = "alma"
 vmdesc      = "Alma Linux Base Template"
-isourl      = "https://repo.almalinux.org/almalinux/9.4/isos/x86_64/AlmaLinux-9.4-x86_64-boot.iso"
+isourl      = "https://repo.almalinux.org/almalinux/9.5/isos/x86_64/AlmaLinux-9.5-x86_64-dvd.iso"
 isochecksum = "file:https://repo.almalinux.org/almalinux/9.4/isos/x86_64/CHECKSUM"
 isofile     = "alma.iso"
 httpdir     = "./http/alma/"

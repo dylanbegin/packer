@@ -3,7 +3,7 @@
 vmid        = "1011"
 vmname      = "fedora"
 vmdesc      = "Fedora Server Base Template"
-isourl      = "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-netinst-x86_64-40-1.14.iso"
+isourl      = "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Server/x86_64/iso/Fedora-Server-netinst-x86_64-41-1.4.iso"
 isochecksum = "file:https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-40-1.14-x86_64-CHECKSUM"
 isofile     = "fedora.iso"
 httpdir     = "./http/fedora/"

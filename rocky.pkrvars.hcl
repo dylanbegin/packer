@@ -3,7 +3,7 @@
 vmid        = "1025"
 vmname      = "rocky"
 vmdesc      = "Rocky Linux Base Template"
-isourl      = "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.4-x86_64-boot.iso"
+isourl      = "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.5-x86_64-boot.iso"
 isochecksum = "file:https://download.rockylinux.org/pub/rocky/9/isos/x86_64/CHECKSUM"
 isofile     = "rocky.iso"
 httpdir     = "./http/rocky/"

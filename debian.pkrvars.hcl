@@ -3,7 +3,7 @@
 vmid        = "1008"
 vmname      = "debian"
 vmdesc      = "Debian Base Template"
-isourl      = "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso"
+isourl      = "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso"
 isochecksum = "file:https://cdimage.debian.org/mirror/cdimage/release/current/amd64/iso-cd/SHA256SUMS"
 isofile     = "debian.iso"
 httpdir     = "./http/debian/"
